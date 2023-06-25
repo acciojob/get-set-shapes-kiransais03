@@ -1,6 +1,6 @@
 //complete this code
 class Rectangle {
-	constuctor(width,height) {
+	constructor(width,height) {
 		this._width=width;
 		this._height=height;
 	} 
@@ -21,7 +21,7 @@ class Rectangle {
 	}
 
 	getArea() {
-		return widht*height;
+		return this.width*this.height;
 	}
 }
 
@@ -34,6 +34,7 @@ class Square extends Rectangle {
 		return 4*width;
 	}
 }
+
 
 // Do not change the code below this line
 window.Rectangle = Rectangle;
